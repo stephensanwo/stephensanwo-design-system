@@ -1,5 +1,6 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import Welcome from "./Welcome";
+import React from "react";
 
 export default {
   title: "Getting Started",
