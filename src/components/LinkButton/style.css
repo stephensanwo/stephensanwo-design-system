@@ -1,5 +1,5 @@
 /* Button */
-.button {
+.link-button {
     all: unset;
     height: 30px;
     padding: 0px 15px 0px 15px;
@@ -14,42 +14,42 @@
 
   }
 
-/* .button > h6 {
+/* .link-button > h6 {
 
 } */
 
-.button-secondary {
+.link-button-secondary {
 background-color: #000;
 }
 
-.button-secondary:hover {
+.link-button-secondary:hover {
 background-color: #2E2E2E;
 }
 
-.button-primary {
+.link-button-primary {
 background-color: #0053ff;
 }
 
-.button-primary:hover {
+.link-button-primary:hover {
 background-color: #1f70ff;
 }
-.button-danger {
+.link-button-danger {
   background-color: rgb(255, 39, 39);
   }
   
-.button-danger:hover {
+.link-button-danger:hover {
   background-color: #ff4545;
   }
 
-.button-tertiary {
+.link-button-tertiary {
   background-color: rgb(100, 100, 100);
   }
   
-.button-tertiary:hover {
+.link-button-tertiary:hover {
 background-color: #2E2E2E;
 }
 
-.button h6 {
+.link-button h6 {
 color: #fff;
 font-size: 12px;
 }

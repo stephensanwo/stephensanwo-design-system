@@ -13,10 +13,43 @@ const Template: ComponentStory<typeof Button> = (args) => (
   <Button {...args} onClick={action("clicked")}></Button>
 );
 
+export const Primary = Template.bind({});
+Primary.args = {
+  kind: "primary",
+  text: "Login",
+  to: "https://www.stephensanwo.dev",
+  hasIcon: true,
+};
+
 export const Secondary = Template.bind({});
 Secondary.args = {
   kind: "secondary",
-  text: "Collaborate with me",
+  text: "Create Account",
   to: "https://www.stephensanwo.dev",
   hasIcon: true,
+};
+
+export const Danger = Template.bind({});
+Danger.args = {
+  kind: "danger",
+  text: "Delete Account",
+  to: "https://www.stephensanwo.dev",
+  hasIcon: true,
+};
+
+export const Tertiary = Template.bind({});
+Tertiary.args = {
+  kind: "tertiary",
+  text: "Register",
+  to: "https://www.stephensanwo.dev",
+  hasIcon: true,
+};
+
+export const LoadingButton = Template.bind({});
+LoadingButton.args = {
+  kind: "secondary",
+  text: "Create Account",
+  to: "https://www.stephensanwo.dev",
+  hasIcon: true,
+  isLoading: true,
 };

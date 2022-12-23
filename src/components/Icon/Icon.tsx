@@ -1,4 +1,5 @@
 import Arrow_NE from "../../assets/svg/arrow_ne.svg";
+import Arrow_Right from "../../assets/svg/arrow_right.svg";
 import React from "react";
 import { IconInterface, IconTypes } from "./types";
 
@@ -6,6 +7,8 @@ const getIcon = (name: string) => {
   switch (name) {
     case IconTypes.Arrow_NE:
       return Arrow_NE;
+    case IconTypes.Arrow_Right:
+      return Arrow_Right;
     default:
       return null;
   }

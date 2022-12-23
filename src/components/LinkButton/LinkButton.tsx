@@ -21,7 +21,7 @@ const LinkButton: React.FC<LinkButtonInterface> = ({
 }) => {
   return (
     <a
-      className={`button button-${kind}`}
+      className={`link-button link-button-${kind}`}
       href={href}
       target="_blank"
       rel="noopener noreferrer"

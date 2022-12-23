@@ -1,17 +1,9 @@
 import React from "react";
 import Icon from "../Icon";
 import { IconTypes } from "../Icon/types";
-import Text from "../Text";
+import Loader from "../Loader";
 import "./style.css";
-
-interface ButtonInterface
-  extends React.ButtonHTMLAttributes<HTMLButtonElement> {
-  kind: "primary" | "secondary" | "tertiaty" | "danger";
-  to?: string;
-  text: string;
-  hasIcon: boolean;
-  icon?: React.ReactNode;
-}
+import { ButtonInterface } from "./types";
 
 const Button: React.FC<ButtonInterface> = ({
   kind,
@@ -24,7 +16,11 @@ const Button: React.FC<ButtonInterface> = ({
   return (
     <button className={`button button-${kind}`} {...props}>
       <h6>{text}</h6>
-      {hasIcon && <Icon type={IconTypes.Arrow_NE} />}
+      {hasIcon && !props.isLoading ? (
+        <Icon type={IconTypes.Arrow_Right} />
+      ) : (
+        <Loader size={16} />
+      )}
     </button>
   );
 };
