@@ -39,7 +39,7 @@ Danger.args = {
 export const Tertiary = Template.bind({});
 Tertiary.args = {
   kind: "tertiary",
-  text: "Collaborate with me",
+  text: "Disabled Link",
   href: "https://www.stephensanwo.dev",
   hasIcon: true,
 };
