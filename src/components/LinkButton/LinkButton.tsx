@@ -1,7 +1,6 @@
 import React from "react";
 import Icon from "../Icon";
 import { IconTypes } from "../Icon/types";
-import Text from "../Text";
 import "./style.css";
 
 interface LinkButtonInterface {
