@@ -7,7 +7,6 @@ import { ButtonInterface } from "./types";
 
 const Button: React.FC<ButtonInterface> = ({
   kind,
-  to,
   text,
   hasIcon,
   icon,
