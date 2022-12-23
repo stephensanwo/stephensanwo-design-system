@@ -35,3 +35,11 @@ Danger.args = {
   href: "https://www.stephensanwo.dev",
   hasIcon: true,
 };
+
+export const Tertiary = Template.bind({});
+Tertiary.args = {
+  kind: "tertiary",
+  text: "Collaborate with me",
+  href: "https://www.stephensanwo.dev",
+  hasIcon: true,
+};

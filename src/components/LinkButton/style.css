@@ -41,6 +41,14 @@ background-color: #1f70ff;
   background-color: #ff4545;
   }
 
+.button-tertiary {
+  background-color: rgb(100, 100, 100);
+  }
+  
+.button-tertiary:hover {
+background-color: #2E2E2E;
+}
+
 .button h6 {
 color: #fff;
 font-size: 12px;

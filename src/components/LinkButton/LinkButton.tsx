@@ -5,7 +5,7 @@ import Text from "../Text";
 import "./style.css";
 
 interface LinkButtonInterface {
-  kind: "primary" | "secondary" | "tertiaty" | "danger";
+  kind: "primary" | "secondary" | "tertiary" | "danger";
   href?: string;
   text: string;
   hasIcon: boolean;
