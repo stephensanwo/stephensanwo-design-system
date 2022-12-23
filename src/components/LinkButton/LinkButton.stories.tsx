@@ -1,6 +1,7 @@
 import { ComponentStory, ComponentMeta } from "@storybook/react";
 import LinkButton from "./LinkButton";
 import { action } from "@storybook/addon-actions";
+import React from "react";
 
 export default {
   title: "Components/LinkButton",
