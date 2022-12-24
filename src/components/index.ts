@@ -2,3 +2,8 @@ export * from "./LinkButton";
 export * from "./Header";
 export * from "./Icon";
 export * from "./Text";
+export * from "./Footer";
+export * from "./InlineNotification";
+export * from "./Loader";
+export * from "./Tag";
+export * from "./Button";
