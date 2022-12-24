@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
-    "target": "es5",
     "outDir": "./dist",
+    "target": "es5",
     "lib": [
       "dom",
       "dom.iterable",
@@ -16,13 +16,15 @@
     "noFallthroughCasesInSwitch": true,
     "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true, 
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "declaration": true,
+    "noEmit": false, 
+    "jsx": "react"
   },
   "include": [
-    "src"
+    "src",
+    "src/index.ts"
   ],
   "exclude": [
     "node_modules"

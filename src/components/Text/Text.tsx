@@ -1,10 +1,6 @@
 import React, { Fragment } from "react";
 import "../../styles/index.css";
-
-interface TextInterface {
-  type: "h1" | "h2" | "h4" | "h5" | "h6" | "p" | "small" | "a";
-  children: string;
-}
+import { TextInterface } from "./types";
 
 const Text: React.FC<TextInterface> = ({ type, ...props }) => {
   return (

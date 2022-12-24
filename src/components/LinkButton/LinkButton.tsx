@@ -2,14 +2,7 @@ import React from "react";
 import Icon from "../Icon";
 import { IconTypes } from "../Icon/types";
 import "./style.css";
-
-interface LinkButtonInterface {
-  kind: "primary" | "secondary" | "tertiary" | "danger";
-  href?: string;
-  text: string;
-  hasIcon: boolean;
-  icon?: React.ReactNode;
-}
+import { LinkButtonInterface } from "./types";
 
 const LinkButton: React.FC<LinkButtonInterface> = ({
   kind,
