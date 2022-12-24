@@ -1,6 +1,7 @@
+
 {
   "compilerOptions": {
-    "outDir": "dist",
+    "outDir": "./dist",
     "target": "es5",
     "lib": [
       "dom",
@@ -13,14 +14,19 @@
     "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "module": "commonjs",
+    "noFallthroughCasesInSwitch": true,
+    "module": "esnext",
     "moduleResolution": "node",
-    "resolveJsonModule": true,
+    "resolveJsonModule": true, 
     "isolatedModules": true,
-    "noEmit": false,
+    "declaration": true,
+    "noEmit": false, 
     "jsx": "react"
   },
   "include": [
-    "src"
+    "src/index.ts"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
