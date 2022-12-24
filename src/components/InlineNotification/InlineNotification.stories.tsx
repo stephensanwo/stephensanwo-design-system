@@ -32,12 +32,12 @@ Error.args = {
   ),
 };
 
-export const Disabled = Template.bind({});
-Disabled.args = {
-  kind: "disabled",
+export const Neutral = Template.bind({});
+Neutral.args = {
+  kind: "neutral",
   children: (
     <p>
-      <strong>Disabled! </strong>Inline disabled notification
+      <strong>Neutral! </strong>Inline neutral notification
     </p>
   ),
 };
